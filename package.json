@@ -1,0 +1,8 @@
+{
+  "name": "smart-parking-system",
+  "version": "1.0.0",
+  "description": "SEMP lab mini project - Smart Parking System",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

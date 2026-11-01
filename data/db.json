@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "fdc83df7-449b-4308-9666-1c2cc42398e6",
+      "name": "Admin",
+      "email": "admin@parking.com",
+      "password": "e7053a2676affa06:80018823f01891edafdaddf01e16214c1faff07546df1166bd161d0315e34361",
+      "role": "admin"
+    },
+    {
+      "id": "3f3b8728-7ee8-4dfd-95a1-2872819b5e49",
+      "name": "sravya",
+      "email": "sravya2@gmail.com",
+      "password": "7a63d60a4054e8e4:d51bd3fa7a2ba5bc5e0698e1d80774deaa336c983ab23adebe6d67b21651e9cd",
+      "role": "user"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "554dad7e-f1ad-485c-8355-597b2cb6446b",
+      "userId": "3f3b8728-7ee8-4dfd-95a1-2872819b5e49",
+      "vehicleNumber": "AC31AB1234",
+      "vehicleType": "bike"
+    }
+  ],
+  "slots": [
+    {
+      "id": "d25dccdc-6f83-47c7-95b4-75b18b48ada3",
+      "slotNumber": "A1",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "75280593-28fd-4a12-8345-9507612c9624",
+      "slotNumber": "A2",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "f64eb01e-9651-4d53-84ca-b29a2ec46e8a",
+      "slotNumber": "A3",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "9f936269-abac-4090-9d07-f547aaa1192e",
+      "slotNumber": "A4",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "cd210caa-b96a-4c06-9fa4-48c7cc499ef2",
+      "slotNumber": "A5",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "a500cff9-b44b-4c9f-beb5-11eef66e0828",
+      "slotNumber": "A6",
+      "slotType": "car",
+      "status": "free"
+    },
+    {
+      "id": "a9edff3c-80fa-49b3-a41d-b830b2626808",
+      "slotNumber": "B1",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "7f9bcf25-3444-4d29-9de5-edce2da4f71f",
+      "slotNumber": "B2",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "fbf3a339-27d8-483a-9974-5975d8d1efba",
+      "slotNumber": "B3",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "fb11e5b8-4d9d-4123-b5e8-85cda505609b",
+      "slotNumber": "B4",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "817aaec7-35b0-45c1-9434-da7ea5f31374",
+      "slotNumber": "B5",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "391aa571-6f81-425b-9a7c-8c2aa01a41eb",
+      "slotNumber": "B6",
+      "slotType": "bike",
+      "status": "free"
+    },
+    {
+      "id": "91fe2fd4-cd83-491c-afe7-bb84e3ba982d",
+      "slotNumber": "C1",
+      "slotType": "bike",
+      "status": "free"
+    }
+  ],
+  "parking": [
+    {
+      "id": "928c9538-fbd7-440f-8fe3-bf90f7b533b5",
+      "userId": "3f3b8728-7ee8-4dfd-95a1-2872819b5e49",
+      "vehicleId": "554dad7e-f1ad-485c-8355-597b2cb6446b",
+      "slotId": "fbf3a339-27d8-483a-9974-5975d8d1efba",
+      "entryTime": "2026-11-01T14:07:50.405Z",
+      "exitTime": "2026-11-01T14:08:07.409Z",
+      "duration": 1,
+      "amount": 20,
+      "status": "completed"
+    }
+  ],
+  "payments": [
+    {
+      "id": "6af52ef3-b2d0-424f-b3e7-2d937c92bc0c",
+      "parkingId": "928c9538-fbd7-440f-8fe3-bf90f7b533b5",
+      "amount": 20,
+      "paymentMethod": "upi",
+      "status": "paid",
+      "paidAt": "2026-11-01T14:08:08.890Z"
+    }
+  ]
+}
